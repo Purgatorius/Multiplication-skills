@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args)
     {
-        System.out.println("Hi! I'll check yout Math skills!");
+        System.out.println("Hi! I'll check your Math skills!");
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
         int count = 0;
