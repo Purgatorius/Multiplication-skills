@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args)
     {
-        System.out.println("Hi! I'll check yout Math skills! :)");
+        System.out.println("Hi! I'll check yout Math skills!");
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
         int count = 0;
@@ -26,11 +26,11 @@ public class Main {
             else
             {
                 if (result != 0)
-                    System.out.println("Bad... :(");
+                    System.out.println("Bad...");
             }
             if (count==10)
             {
-                System.out.println("Very good job! You're good in math! :)");
+                System.out.println("Very good job! You're good in math! Keep it up!");
                 count = 0;
             }
         }
